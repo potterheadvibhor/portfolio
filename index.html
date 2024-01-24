@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibhor-portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-color: rgb(16, 16, 60);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+nav
+{
+    display:flex; 
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(3, 3, 10);
+
+}
+nav ul
+{
+    display:flex;
+    justify-content: center;
+}
+nav ul li
+{
+    list-style: none;
+    margin: 0 23px;
+} 
+nav ul li a
+{
+   text-decoration: none;
+   color: white;
+} 
+nav ul li a:hover
+{
+    color: darkorange;
+}
+#left
+{
+    font-size: 1.5rem;
+}
+.firstsection
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0px;
+    font-size: 30px;
+}
+.firstsection div
+{
+width: 30%;
+}
+
+.rightsection img
+{
+    width: 80%;
+    margin: 50px 0;
+}
+.leftsection
+{
+    margin-top: 100px;
+}
+#purple
+{
+    color: rgb(152, 65, 233);
+}
+#element
+{
+    color: rgb(152, 65, 233);
+}
+.secoundsection
+{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+main hr
+{
+    border: 0;
+    height: 1px;
+    background-color: rgb(152, 65, 233);
+    margin: 48px 84px;
+}
+.secoundsection .box
+{
+    
+    height: 2px;
+    margin: 56px 0;
+    width: 80vw;
+    background: white;
+    display: flex;
+
+}
+.secoundsection .vertical
+{
+    height: 93px;
+    width: 1px;
+    background: white;
+    margin: 0  100px;
+   
+}
+.image-top
+{
+    position: relative;
+    width: 23px;
+    top: -32px;
+    left: -9px;
+}
+.vertica_title
+{
+    position: relative;
+    top: 75px;
+    width: 150px;
+    color: darkorange;
+}
+.vertica_title :hover
+{
+    color: darkorange;
+}
+.vertica_title a
+{
+   text-decoration: none;
+   color: white;
+} 
+.vertical_description
+{
+    position: relative;
+    top: 86px;
+    width: 150px; 
+    font-size: 9px;
+}
+footer
+{
+    background-color: rgb(3, 3, 10);
+    height: 233px;
+}
+.first
+{
+    padding: 23px 122px;
+    display: flex;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="left" >Vibhor's Portfolio</div>
+            <div id="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About Me</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi,My Name is <span id="purple">Vibhor Jain</span>
+                <div>and i am a Web Developer <span id="element"></span></div> </div>
+               
+            <div class="rightsection">
+                <img src="developer.png"alt="Developer"width="450"height="300">
+            </div>
+            
+        </section>
+        <hr>
+        <section class="secoundsection">
+            <span>What i have done so far</span>
+            <h1>My Projects </h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="coding.png"alt="">
+                    <div class="vertica_title"><a href="https://github.com/potterheadvibhor/Bank-management-system"target="/_main"title=Bank-management-system >Bank-management-system</a></div>
+                    <div class="vertical_description">using awt,swing,jdbc,sql</div>
+                </div>
+                <div class="vertical"><img class="image-top" src="coding.png"alt="">
+                    <div class="vertica_title"><a href="https://github.com/potterheadvibhor/QuizApplication" target="/_main" title=Quiz-Application >Quiz-Application</a></div>
+                    <div class="vertical_description">using awt,swing,jdbc,sql</div></div>
+                <div class="vertical">
+                    <img class="image-top" src="coding.png"alt="">
+                    <div class="vertica_title"><a href="https://github.com/potterheadvibhor/Desktop-Based-Chat-Application-by-java-" target="/_main" title=Desktop-based-chat-application>Quiz-Application</a></div>
+                    <div class="vertical_description">using awt,swing,jdbc,sql,socket programming</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="coding.png"alt="">
+                    <div class="vertica_title"><a href="https://github.com/potterheadvibhor/ticTacToe" target="/_main" title=TicTac>TicTac</a></div>
+                    <div class="vertical_description">using awt,swing,jdbc,sql</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="coding.png"alt="">
+                    <div class="vertica_title"><a href="https://github.com/potterheadvibhor/Snake-ladder-game" target="/_main" title=Snakeladder>Snake-ladder-game</a></div>
+                    <div class="vertical_description">using awt,swing,jdbc,sql</div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="flex">
+            <dic class="first">
+                <h3>
+                    Vibhor's Developer Portfolio
+                </h3>
+            </dic>
+            <dic class="secoond"></dic>
+            <!-- <ul style="text-decoration: none;">
+                <li>HOME</li>
+                <li>HOME</li>
+                <li>HOME</li>
+                <li>HOME</li> -->
+            </ul>
+            <dic class="third"></dic>
+            <dic class="fourth"></dic>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Java Developer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
